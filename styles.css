@@ -1,0 +1,28 @@
+body {
+    background-image: url(https://image.shutterstock.com/image-vector/illuminated-stage-on-stadium-vector-260nw-774206896.jpg);
+   background-size: 98%;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 90px;
+    color: snow;
+}
+
+.box {
+    position: absolute;
+    bottom: 30%;
+    right: 42%;
+    text-align: center;
+    /* background-color: teal; */
+    border: 15px snow;
+    width: 300px;
+    /* box-sizing: border-box; */
+    border-style: solid;
+    /* border-color: snow; */
+    /* border: 40px; * */
+    /* /* border: 10px snow; */
+    color: snow;
+    
+}
