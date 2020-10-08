@@ -41,3 +41,14 @@ background-image: url(https://wallpaperaccess.com/full/44211.jpg);
 color: snow;
 
 }
+
+.modal-body {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q1b {
+        float: left;
+
+}
