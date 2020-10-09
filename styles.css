@@ -10,45 +10,18 @@ h1 {
     color: snow;
 }
 
-.box {
+.jumbotron {
     position: absolute;
-    bottom: 30%;
-    right: 47%;
-    text-align: center;
-    background-color: teal;
-    border: 2px rgb(93, 198, 236);
-    width: 150px;
-    box-sizing: border-box;
-    border-style: solid;
-    border-color: snow;
-    border: 40px; 
-    border: 10px snow;
-    color:black;
-    background-color: rgb(153, 170, 202);
-    padding: 5px;
-    } 
-
-.tab {
+    top: 200px;
+    right: 680px;
+    color: snow;
+    background-color: rgb(82, 222, 247);
+    width: 600px;
+    border: solid black 1px;
+}
+.btn.btn-primary.btn-lg {
     position: absolute;
-    bottom: 30%;
-    right: 47%;
-}
-
-.modal-content {
-position: relative;
-top: 300px;
-background-image: url(https://wallpaperaccess.com/full/44211.jpg);
-color: snow;
-
-}
-
-.modal-body {
-    display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.q1b {
-        float: left;
-
+    left: 33%;
+    bottom: 10px;
+    background-color: rgb(29, 49, 49);
 }
