@@ -12,23 +12,32 @@
 
     <!-- nav bar -->
     <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">Hi-Scores</a>
+        <a class="navbar-brand" href="hi-score.html">Hi-Scores</a>
             </nav>
 
     <h1>Quiz Wiz!</h1>
 
-    <div id="time" class="timeLeft">Time Remaining 00:50</div>
+    <div id="time-start" class="time-left">Time Remaining 00:45</div>
  
-  <!-- jumbotron -->
-  <div class="jumbotron">
-    <h3 class="headerQ">Quiz Wiz!</h3>
-      <div class="questionNumber">question 1 of 3<div>
-          <!-- Where questions will populate -->
-        <div class="questions">
-           <hr class="my-4">
-           <!-- Where answer options will populate -->
-           <div class="answerButtons"></div>
-       </div>
+    <div class="container">
+      <main>
+        <section class="row">
+          <!-- jumbotron -->
+            <div class="jumbotron">
+              <h3 class="headerQ">Quiz Wiz!</h3>
+                <div id="question-numbers">question 1 of 3</div>
+                    <!-- Where questions will populate -->
+                  <div id="question"></div>  
+                  <div id="question-options">
+                    <hr class="my-4">
+                    <!-- Where answer options will populate -->
+                    <div id="answer-options"></div>
+                  </div> 
+            </div>
+        </section>        
+      </main>      
+    </div>
+  
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
