@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS CDN -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous"
+        />
+        
+        <link rel="stylesheet" type="text/css" href="css\quiz.css" />
+
+        <title>Quiz Wiz</title>
+    </head>
+     <body>
+    <!-- nav bar  -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="hiscore2.html">Hi-Scores</a>
+       </nav>
+   
+       <h1>Quiz Wiz!</h1>
+   
+       <div id="time-left" class="ml-auto">Timer :45</div>
+    
+        <div class="container-wrap">
+            <main>
+                <section class="row">
+                    <div class="col d-flex justify-content-center">
+                        <!-- start jumbotron -->
+                        <div class="jumbotron text-center">
+                            <h2>Coding Quiz</h2>
+                            <div id="question-number">Question Number</div>
+                            <div
+                                id="question-container"
+                                class="justify-content-spacearound"
+                            >
+                                <div id="question-name"></div>
+                                <div id="question"></div>
+                                <hr class="my-4" />
+                                <div id="answer-buttons" class="pb-2"></div>
+                            </div>
+                        </div>
+                        <!-- end jumbotron -->
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>          
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="java\quiztime.js"></script>
+    </body>
+</html>
